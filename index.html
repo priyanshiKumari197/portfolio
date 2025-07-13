@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Priyanshi's portfolio</div>
+
+            <div class="right">
+                <ul id="menu-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick=toggleMenubar()></i>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first-section">
+
+            <div class="left_Section">
+                <img id="Myphoto" src="myPhoto.jpg" alt="">
+                <p class="my-info">
+                    Hi, My name is
+                    <span class="Text-yellow">priyanshi kumari </span>
+                    and I am passionate
+                    <span id="element"></span>
+                </p>
+                <div class="btns">
+                    <a href="resume.pdf" class="btn" download>Download Resume</a>
+                    <a href="https://github.com/priyanshiKumari197" class="btn" target="_blank">Visit Github</a>
+                </div>
+
+            </div>
+            <div class="right_Section">
+                <img class="hide" src="bg.png">
+            </div>
+
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="intro-text">What I have done so far</span>
+            <h1 class="about_head">Past experience</h1>
+            <div class="about-section">
+                <div class="about-box">
+                    <h3>Web Developer Intern</h3>
+                    <p>Worked on frontend using HTML, CSS, and JavaScript. Built responsive UIs.</p>
+                </div>
+
+                <div class="about-box">
+                    <h3>DSA Learner</h3>
+                    <p>Practicing Data Structures & Algorithms in C++. Solved 200+ problems.</p>
+                </div>
+
+                <div class="about-box">
+                    <h3>MERN Stack Projects</h3>
+                    <p>Creating full-stack applications using MongoDB, Express, React, and Node.js.</p>
+                </div>
+
+                <div class="about-box">
+                    <h3>Open Source Contributor</h3>
+                    <p>Contributed to open source repositories on GitHub in Hacktoberfest 2024.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Priyanshi's developer Portfolio</h3>
+            </div>
+            <div class="footer-social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/priyanshiKumari197" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            <span>github</span>
+                        </a>
+
+
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/priyanshi-kumari-380608283/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>linkdin</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="email">priyanshik674@gmail.com</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['mern stack developer', 'problem Solver'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
