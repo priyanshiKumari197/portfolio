@@ -7,6 +7,4 @@ function toggleMenubar(){
     } else {
         menuList.style.maxHeight = "0px";
     }
-    console.log("click button");
 }
-clearInterval
