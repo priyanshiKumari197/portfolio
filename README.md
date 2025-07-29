@@ -24,5 +24,3 @@ This portfolio showcases my **skills, projects, and contact information** in a c
 - Contact section for easy communication  
 
 ---
-
-## 📂 Folder Structure
