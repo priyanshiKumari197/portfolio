@@ -1,21 +1,28 @@
-Personal Portfolio
-This is my personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and contact details.
+# 🌸 Personal Portfolio
 
-🌐 Live Demo
-Click here to view my portfolio
+Welcome to my personal portfolio website!  
+This portfolio showcases my **skills, projects, and contact information** in a clean and responsive design.  
 
-🛠 Technologies Used
-HTML5 – Structure of the website
+---
 
-CSS3 – Styling and layout
+## 🌐 Live Demo
+**[Click here to view my portfolio](https://priyanshikumari197.github.io/portfolio/)**  
 
-JavaScript – Interactivity and dynamic elements
+---
 
-✨ Features
-Responsive design for mobile and desktop
+## 🛠 Tech Stack
+- **HTML5** – Structure and content  
+- **CSS3** – Styling and responsive layout  
+- **JavaScript (ES6)** – Dynamic functionality  
 
-About Me section to highlight skills and background
+---
 
-Projects showcase with links
+## ✨ Features
+- Fully responsive design (mobile & desktop)  
+- About Me section to highlight my background and skills  
+- Projects showcase with links  
+- Contact section for easy communication  
 
-Contact form/details for communication
+---
+
+## 📂 Folder Structure
